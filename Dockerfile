@@ -1,4 +1,4 @@
-FROM rust:latest
+FROM rust:1.44
 
 # Install nodejs
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
